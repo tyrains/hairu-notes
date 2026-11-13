@@ -1,0 +1,17 @@
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/out/
+.DS_Store
+Thumbs.db
+
+# 签名私钥与本地口令：绝不入库（build-local.sh 在缺失时会自动新建一把）
+android/turbonotes.jks
+android/signing.local.conf
+*.jks
+*.keystore
+
+# 本地工作记录与打包副本（源码 zip 内含私钥，不上传）
+.workbuddy/
+*.zip

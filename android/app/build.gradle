@@ -1,0 +1,30 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.hairu.idea'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.hairu.idea'
+        minSdk 26          // Android 8.0 起，覆盖小米 HyperOS
+        targetSdk 34
+        versionCode 3
+        versionName '1.2.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+        // debug 使用 AGP 自动生成的 debug keystore 签名，产物可直接侧载安装
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// 无 dependencies：不联网、不引第三方 SDK

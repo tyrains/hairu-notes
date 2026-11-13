@@ -1,0 +1,4 @@
+// 顶层构建脚本。整个工程不依赖任何第三方 SDK，只有一个系统 WebView。
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+}
