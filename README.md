@@ -25,7 +25,9 @@
 | 体积 | APK 约 33 KB（界面是单文件 HTML，无第三方 SDK） |
 | 签名 | 自有 RSA-2048 密钥，v1 + v2 + v3，`apksigner verify` 通过 |
 
-仓库里 **`HaiRuNotes-v1.2.0.apk` 已编译、对齐并签名，可直接安装**。
+**下载安装**：👉 [前往 Releases 下载 v1.2.0](https://github.com/tyrains/hairu-notes/releases/tag/v1.2.0) ｜ [直接下载 APK](https://github.com/tyrains/hairu-notes/releases/download/v1.2.0/HaiRuNotes-v1.2.0.apk)
+
+仓库里也保留了同一份 `HaiRuNotes-v1.2.0.apk`（已编译、对齐并签名），与 Release 附件 SHA-256 完全一致：`ce3eb7f2…a945`。
 
 ---
 
@@ -63,7 +65,7 @@
 
 ## 安装到手机
 
-1. 把 `HaiRuNotes-v1.2.0.apk` 传到手机：**数据线 / 小米互传 / QQ 最稳，别用微信**（微信会把 APK 改名成 `.apk.1` 导致无法安装）。
+1. 先在 [Releases](https://github.com/tyrains/hairu-notes/releases/tag/v1.2.0) 下载 `HaiRuNotes-v1.2.0.apk`，再传到手机：**数据线 / 小米互传 / QQ 最稳，别用微信**（微信会把 APK 改名成 `.apk.1` 导致无法安装）。
 2. 在「文件管理」里点这个 APK → 安装。
 3. 首次提示「禁止安装未知来源应用」时，点**设置** → 打开「允许来自此来源的应用」→ 返回继续。
 4. 若被「纯净模式」拦截：设置 → 应用设置 → 纯净模式 → 临时关闭，或点「仍要安装」。
